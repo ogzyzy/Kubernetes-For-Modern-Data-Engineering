@@ -41,7 +41,7 @@ def preview_data(**kwargs):
 
     
 default_args = {
-    'owner': 'datamasterylab.com',
+    'owner': 'dominikzygarski.com',
     'start_date': datetime(2025, 5, 18),
     'catchup': False
 }
