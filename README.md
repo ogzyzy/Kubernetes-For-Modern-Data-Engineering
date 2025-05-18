@@ -95,7 +95,6 @@ This project uses **git-sync**, which automatically pulls DAGs from the `main` b
 After pushing new or updated DAGs to GitHub, Airflow will detect and load them automatically — no restart required.
 
 
----
 
 ## 🙏 Acknowledgements
 
