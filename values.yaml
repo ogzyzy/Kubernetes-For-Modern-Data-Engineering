@@ -1,0 +1,15 @@
+fernetKey: VlpOMnV6bUpEdWpXSnFHVkQxTkhXUGE0ZGlFNGJja00=
+webserverSecretKey: VlpOMnV6bUpEdWpXSnFHVkQxTkhXUGE0ZGlFNGJja00=
+executor: "KubernetesExecutor" 
+
+dags:
+  gitSync:
+    enabled: true
+    repo: "https://github.com/ogzyzy/Kubernetes-For-Modern-Data-Engineering.git"
+    branch: "main"
+    rev: "HEAD"
+    depth: 1
+    maxFailures: 0 
+    subPath: "dags" 
+
+    
