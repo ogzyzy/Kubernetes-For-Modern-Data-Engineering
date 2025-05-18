@@ -12,4 +12,12 @@ dags:
     maxFailures: 0 
     subPath: "dags" 
 
+logs:
+  persistence:
+    enabled: true
+    existingClaim: ""
+    storageClassName: hostpath
+    accessMode: ReadWriteOnce
+    size: 1Gi
+
     
