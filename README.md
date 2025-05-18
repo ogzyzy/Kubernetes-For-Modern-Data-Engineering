@@ -45,6 +45,7 @@ kubectl apply -f k8s/
 
 This applies all required YAML files for RBAC, admin user, and secrets. It will configure a working dashboard accessible from your machine.
 
+
 ### Access the Dashboard
 
 Start a proxy server:
@@ -63,7 +64,6 @@ To log in, use the token defined in `dashboard-secret.yaml`. Retrieve it with:
 kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath="{.data.token}" | base64 --decode
 ```
 
----
 
 ### Deploy Apache Airflow
 
@@ -85,7 +85,6 @@ helm upgrade --install airflow apache-airflow/airflow \
 
 This will install Airflow with `KubernetesExecutor`, enabled `git-sync`, and persistent logging.
 
----
 
 ### DAG Management with Git-Sync
 
