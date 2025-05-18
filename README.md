@@ -27,14 +27,12 @@ This repository contains a local Kubernetes setup for running Apache Airflow usi
     ├── dashboard-secret.yaml      # Login token config
     └── values.yaml                # Airflow Helm config (executor, logging, gitSync, etc.)
 ```
----
 
 ## 🧰 Prerequisites
 
 - Docker Desktop with Kubernetes enabled  
 - `kubectl` and `helm` installed
 
----
 ## 🛠 Setup
 
 ### Deploy the Kubernetes Dashboard
