@@ -22,7 +22,7 @@ t1 = BashOperator(
 
 t2 = BashOperator(
     task_id='hello_dml',
-    bash_command='echo "Hello Data Mastery Lab"',
+    bash_command='echo "Hello Dominik"',
     dag=dag
 )
 

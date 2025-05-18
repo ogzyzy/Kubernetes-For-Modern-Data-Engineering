@@ -16,8 +16,7 @@ logs:
   persistence:
     enabled: true
     existingClaim: ""
-    storageClassName: hostpath
-    accessMode: ReadWriteOnce
+    storageClassName: hostpath 
     size: 1Gi
 
     
