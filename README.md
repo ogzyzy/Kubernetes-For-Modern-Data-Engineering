@@ -13,7 +13,6 @@ This repository contains a local Kubernetes setup for running Apache Airflow usi
 - Git-sync
 - Python
 
----
 
 ## 📁 Repository Structure
 
