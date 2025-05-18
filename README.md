@@ -67,7 +67,7 @@ kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath="{.data.token}
 
 ### Deploy Apache Airflow
 
-    Make sure you’ve added the Airflow Helm repository:
+Make sure you’ve added the Airflow Helm repository:
 
 ```bash
 helm repo add apache-airflow https://airflow.apache.org
