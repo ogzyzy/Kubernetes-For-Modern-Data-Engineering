@@ -1,4 +1,3 @@
-```markdown
 # Kubernetes for Modern Data Engineering
 
 This repository contains a local Kubernetes setup for running Apache Airflow using Docker Desktop, Helm, and git-sync. The project includes both Airflow DAGs and the necessary Kubernetes configuration to deploy Airflow and the Kubernetes Dashboard locally — without relying on any cloud provider.
