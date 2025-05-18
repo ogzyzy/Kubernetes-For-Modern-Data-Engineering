@@ -97,7 +97,7 @@ You don’t need to manually copy DAGs into the container.
 This project uses **git-sync**, which automatically pulls DAGs from the `main` branch of your GitHub repository. The `subPath: "dags"` ensures only DAG files from that folder are loaded.
 
 After pushing new or updated DAGs to GitHub, Airflow will detect and load them automatically — no restart required.
-```
+
 
 ---
 
