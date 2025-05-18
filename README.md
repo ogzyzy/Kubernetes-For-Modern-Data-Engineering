@@ -103,6 +103,6 @@ After pushing new or updated DAGs to GitHub, Airflow will detect and load them a
 
 ## 🙏 Acknowledgements
 
-The structure and direction of this project follow the approach shared by **Yusuf Ganiyu**, whose work served as a strong technical reference.
+The structure and direction of this project follow the approach shared by [airscholar](https://github.com/airscholar).
 
 ---
