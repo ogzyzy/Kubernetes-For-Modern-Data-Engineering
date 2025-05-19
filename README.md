@@ -10,7 +10,7 @@ This repository contains a local Kubernetes setup for running Apache Airflow usi
 
 - Kubernetes (via Docker Desktop)
 - Apache Airflow (via Helm)
-- Git-sync
+- gitSync
 - Python
 
 
